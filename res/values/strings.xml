@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FreeJoin</string>
+    <string name="home">Home</string>
+    <string name="me">Mine</string>
+    <string name="title">Title:</string>
+    <string name="organize">Organize:</string>
+    <string name="schedule">Schedule:</string>
+    <string name="group">Group:</string>
+    <string name="content">Content:</string>
+    <string name="who_joined">Who Joined(%1$d)</string>
+    <string name="who_not_joined">Who not Joined(%1$d)</string>
+    <string name="username">Username</string>
+    <string name="other_info">Phone</string>
+    <string name="my_activities">My Activities</string>
+    <string name="details">Details</string>
+    <string name="submit">Publish</string>
+    <string name="save">Save</string>
+    <string name="join">Join</string>
+    <string name="leave">Leave</string>
+    <string name="success">success</string>
+    <string name="failed">failed</string>
+    <string name="title_is_empty">Please input title.</string>
+    <string name="content_is_empty">Please input content.</string>
+    <string name="schedule_is_empty">Please input schedule.</string>
+    <string name="start_time_is_empty">Please set start time.</string>
+    <string name="end_time_is_empty">Please set end time.</string>
+    <string name="username_is_empty">Please input username.</string>
+    <string name="other_info_is_empty">Please input other info.</string>
+    <string name="ok">OK</string>
+    <string name="start_time">Start time:</string>
+    <string name="end_time">End time:</string>
+
+</resources>

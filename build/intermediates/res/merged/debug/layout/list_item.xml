@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/main_backgroud"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/activity_icon" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/icon"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/listview_title_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/icon"
+        android:singleLine="true"
+        android:textColor="@color/listview_time_text"
+        android:textSize="@dimen/listview_time_text_size"
+        android:layout_alignParentEnd="false" />
+
+    <TextView
+
+        android:id="@+id/who"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:textColor="@color/listview_who_text"
+        android:textSize="@dimen/listview_who_text_size" />
+
+    <ImageView
+        android:id="@+id/myjoined"
+        android:layout_above="@+id/who"
+        android:layout_toLeftOf="@id/title"
+        android:src="@drawable/my_joined"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        />
+
+</RelativeLayout><!-- From: file:/Users/shren/Downloads/freejoin/res/layout/list_item.xml -->

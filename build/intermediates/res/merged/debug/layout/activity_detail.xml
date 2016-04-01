@@ -1,0 +1,233 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detail_bg"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        layout="@layout/title" >
+    </include>
+
+    <include
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_height"
+        android:layout_alignParentBottom="true"
+        layout="@layout/bottom" >
+    </include>
+    <ScrollView
+        android:id="@+id/scrollview_activity_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom"
+        android:layout_below="@id/app_title"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_title"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+<!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textColor="@color/detail_text"
+                android:textSize="@dimen/detail_text_size"
+                android:textStyle="bold" />
+-->
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+
+                android:textSize="@dimen/detail_text_size"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+<!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/organize"
+                android:textColor="@color/detail_text"
+                android:textSize="@dimen/detail_text_size"
+                android:textStyle="bold" />
+-->
+            <TextView
+                android:id="@+id/organizer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/detail_text"
+                android:textSize="15sp"
+                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp">
+            <TextView
+                android:id="@+id/hang1"
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+<!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schedule"
+                android:textColor="@color/detail_text"
+                android:textSize="@dimen/detail_text_size"
+                android:textStyle="bold" />
+-->
+            <TextView
+                android:id="@+id/schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/detail_text"
+                android:textSize="15sp"
+                 />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp">
+            <TextView
+                android:id="@+id/hang2"
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                />
+
+        </LinearLayout>
+<!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content"
+                android:textColor="@color/detail_text"
+                android:textSize="@dimen/detail_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/detail_text"
+                android:textSize="@dimen/detail_text_size"
+                android:lineSpacingMultiplier="1.2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:orientation="vertical"
+                android:background="@color/who_joind_backgroud">
+                <TextView
+                    android:id="@+id/who_joined_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/who_joined"
+                    android:textColor="@color/detail_text"
+                    android:textSize="@dimen/detail_text_size"
+                    android:textStyle="bold" />
+                </LinearLayout>
+            <TextView
+                android:id="@+id/who_joined"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/detail_text"
+                android:textSize="@dimen/detail_text_size"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:orientation="vertical"
+                android:background="@color/who_joind_backgroud">
+                    <TextView
+                        android:id="@+id/who_not_joined_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="@string/who_not_joined"
+                        android:textColor="@color/detail_text"
+                        android:textSize="@dimen/detail_text_size"
+                        android:textStyle="bold"
+                        />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/who_not_joined"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/detail_text"
+                android:textSize="@dimen/detail_text_size"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/join_leave"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/save_button"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/join"
+        android:textColor="@color/white" />
+
+</RelativeLayout><!-- From: file:/Users/shren/Downloads/freejoin/res/layout/activity_detail.xml -->

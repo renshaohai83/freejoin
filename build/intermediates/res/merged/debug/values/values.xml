@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/shren/Downloads/freejoin/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="bottom_text">#FFFFFF</color>
+    <color name="bule">#3C7781</color>
+    <color name="create_bg">#D5E0E5</color>
+    <color name="create_text">#999999</color>
+    <color name="detail_bg">#D5E0E5</color>
+    <color name="detail_text">#666666</color>
+    <color name="home_btn_main">#3C7781</color>
+    <color name="home_btn_normal">#BCBCBC</color>
+    <color name="home_btn_pressed">#3FA9F5</color>
+    <color name="listview_time_text">#888888</color>
+    <color name="listview_who_text">#888888</color>
+    <color name="main_backgroud">#D5E0E5</color>
+    <color name="me_btn_normal">#BCBCBC</color>
+    <color name="me_btn_pressed">#3C7781</color>
+    <color name="my_bg">#D5E0E5</color>
+    <color name="my_text">#999999</color>
+    <color name="title_bg">#3C7781</color>
+    <color name="white">#FFFFFF</color>
+    <color name="who_joind_backgroud">#CCCCCC</color>
+    <color name="yellow">#FFE600</color>
+    <!-- From: file:/Users/shren/Downloads/freejoin/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="bottom_height">60dp</dimen>
+    <dimen name="bottom_text_size">20sp</dimen>
+    <dimen name="create_text_size">20sp</dimen>
+    <dimen name="detail_text_size">20sp</dimen>
+    <dimen name="edittext_height">40dp</dimen>
+    <dimen name="group_spinner_height">35dp</dimen>
+    <dimen name="listview_time_text_size">14sp</dimen>
+    <dimen name="listview_title_text_size">20sp</dimen>
+    <dimen name="listview_who_text_size">18sp</dimen>
+    <dimen name="my_text_size">20sp</dimen>
+    <dimen name="title_height">50dp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <!-- From: file:/Users/shren/Downloads/freejoin/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">FreeJoin</string>
+    <string name="content">Content:</string>
+    <string name="content_is_empty">Please input content.</string>
+    <string name="details">Details</string>
+    <string name="end_time">End time:</string>
+    <string name="end_time_is_empty">Please set end time.</string>
+    <string name="failed">failed</string>
+    <string name="group">Group:</string>
+    <string name="home">Home</string>
+    <string name="join">Join</string>
+    <string name="leave">Leave</string>
+    <string name="me">Mine</string>
+    <string name="my_activities">My Activities</string>
+    <string name="ok">OK</string>
+    <string name="organize">Organize:</string>
+    <string name="other_info">Phone</string>
+    <string name="other_info_is_empty">Please input other info.</string>
+    <string name="save">Save</string>
+    <string name="schedule">Schedule:</string>
+    <string name="schedule_is_empty">Please input schedule.</string>
+    <string name="start_time">Start time:</string>
+    <string name="start_time_is_empty">Please set start time.</string>
+    <string name="submit">Publish</string>
+    <string name="success">success</string>
+    <string name="title">Title:</string>
+    <string name="title_is_empty">Please input title.</string>
+    <string name="username">Username</string>
+    <string name="username_is_empty">Please input username.</string>
+    <string name="who_joined">Who Joined(%1$d)</string>
+    <string name="who_not_joined">Who not Joined(%1$d)</string>
+</resources>

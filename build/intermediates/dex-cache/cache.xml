@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shren/Downloads/freejoin/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b1fe665b784aa7314d722b2ec17e77f83ba2e717">
+        <dex dex="/Users/shren/Downloads/freejoin/build/intermediates/pre-dexed/debug/android-support-v4-3ecacea2b34a1ac9d5d32d9e4951705b64a6b99a.jar" />
+    </item>
+
+</items>

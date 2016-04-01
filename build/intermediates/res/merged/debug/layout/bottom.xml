@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_height"
+    android:background="@color/white"
+    android:padding="2dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/home_btn_normal"
+        android:text="@string/home"
+        android:textColor="@color/bottom_text"
+        android:textSize="@dimen/bottom_text_size"
+        android:textStyle="bold" >
+    </Button>
+
+    <Button
+        android:id="@+id/me"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/me_btn_pressed"
+        android:text="@string/me"
+        android:textColor="@color/bottom_text"
+        android:textSize="@dimen/bottom_text_size"
+        android:textStyle="bold" >
+    </Button>
+
+</LinearLayout><!-- From: file:/Users/shren/Downloads/freejoin/res/layout/bottom.xml -->

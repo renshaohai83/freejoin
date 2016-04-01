@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFE600</color>
+    <color name="bule">#3C7781</color>
+    <color name="main_backgroud">#D5E0E5</color>
+    <color name="bottom_text">#FFFFFF</color>
+    <color name="home_btn_normal">#BCBCBC</color>
+    <color name="home_btn_pressed">#3FA9F5</color>
+    <color name="home_btn_main">#3C7781</color>
+
+    <color name="me_btn_normal">#BCBCBC</color>
+    <color name="me_btn_pressed">#3C7781</color>
+
+    <color name="title_bg">#3C7781</color>
+    <color name="listview_time_text">#888888</color>
+    <color name="listview_who_text">#888888</color>
+    <color name="create_bg">#D5E0E5</color>
+    <color name="detail_bg">#D5E0E5</color>
+    <color name="my_bg">#D5E0E5</color>
+    <color name="detail_text">#666666</color>
+    <color name="my_text">#999999</color>
+    <color name="create_text">#999999</color>
+    <color name="who_joind_backgroud">#CCCCCC</color>
+
+</resources>
